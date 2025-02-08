@@ -5,9 +5,9 @@ Laravel Invisible reCAPTCHA v3
 
 ![invisible_recaptcha_demo](http://i.imgur.com/1dZ9XKn.png)
 
-## Background
+## Fork description
 
-28/06/2024 - the [original repository](https://github.com/albertcht/invisible-recaptcha) has not been updated for over 2 years and lacks Laravel 11 support and a [critical PR](https://github.com/albertcht/invisible-recaptcha/pull/173) relating to patch the recent polyfillio[dot]io attack. This fork includes both fixes and drops support for old Laravel and PHP versions. I plan to tidy up the forked repository, add GitHub workflows and set a different namespace.
+28/06/2024 - the [original repository](https://github.com/albertcht/invisible-recaptcha) has not been updated for over 2 years and lacks Laravel 11 support and a [critical PR](https://github.com/albertcht/invisible-recaptcha/pull/173) relating to patch the recent polyfillio[dot]io attack. This fork includes both fixes and drops support for old Laravel and PHP versions.
 
 ## Support
 
@@ -16,7 +16,7 @@ Laravel 10 / 11, PHP `*8.0`.
 ## Installation
 
 ```
-composer require f9webltd/invisible-recaptcha
+composer require ligoo/invisible-recaptcha
 ```
 
 ### Setup
